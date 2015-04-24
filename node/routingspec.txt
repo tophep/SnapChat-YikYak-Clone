@@ -1,0 +1,91 @@
+Post Request:
+
+"/login" - Log a user in
+
+req.body --> {
+	user_id: user identifier,
+	password: the users password
+}
+
+Response:
+
+	if successful
+		200 --> {
+			access_token: needed to interact w/api, prevents password sent on every request
+		}
+	else
+		use proper response code
+		send error message
+
+
+
+
+
+Post Request:
+
+"/posts" - uploads a single post (image or video with a caption)
+
+req.body --> {
+	user_id: user identifier,
+	access_token: granted at login,
+	longitude: float in string form,
+	latitude: float in string form,
+	file_name: used as a key in req.files,
+	caption: some string caption
+}
+
+
+Response:
+
+	if successful
+
+	200 --> {
+		post_id: identifier for the post
+	}
+
+	if not,
+
+		delete all attached files
+
+		respond with possible errors
+			
+			invalid credentials - userid or access token isnt valid
+
+			data format error - No file, lat, or long
+		
+		use the appropriate http response codes
+
+
+
+
+Get Request:
+
+"/posts" - requests the server sends a single post
+
+req.body --> {
+	user_id: user identifier,
+	access_token: granted at login,
+	post_id: indentifier for the post object
+}
+
+
+Response:
+
+	if successful
+
+	200 --> {
+		caption: post caption,
+		filename: name of the attached file
+	}
+
+	attach file
+
+	if not,
+
+		respond with possible errors
+			
+			invalid credentials - userid or access token isnt valid
+
+			invalid post id - No matching post
+		
+		use the appropriate http response codes

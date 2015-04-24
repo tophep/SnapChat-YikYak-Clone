@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A44B5B09-D669-425E-BA1D-C33E42D03017</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VideoApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0F6D704F7E747BC2299992A7CBE08A32B0F15C84</key>
+		<string>https://bitbucket.org/Tophep/gobble-ios.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VideoApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0F6D704F7E747BC2299992A7CBE08A32B0F15C84</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/Tophep/gobble-ios.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0F6D704F7E747BC2299992A7CBE08A32B0F15C84</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0F6D704F7E747BC2299992A7CBE08A32B0F15C84</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-livefeed</string>
+		</dict>
+	</array>
+</dict>
+</plist>
