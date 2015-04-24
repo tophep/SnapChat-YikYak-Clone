@@ -1,0 +1,3 @@
+A work in progress:
+
+The goal of this project is to use Node.js, iOS, and MongoDB to create a location-based image and video sharing platform.  Users will be able to take photos and videos, give them a caption, and post to a feed that is only visible to those with the app in the local area.  Users can choose to remain anonymous, or attach their username to their posts.  Additionally, users will be able to send posts to their friends and share posts from their feed.
